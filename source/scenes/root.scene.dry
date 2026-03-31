@@ -593,7 +593,7 @@ For more information on the politics and government of the German Republic, see 
 - @1928_historical: Begin (historical mode)
 
 @1928_easy
-on-arrival: difficulty = -1; resources = 4; dues = 3; rb_strength = 2500; kpd_relation = 29; z_relation = 54; dvp_relation = 49; budget = 5;
+on-arrival: difficulty = -1; resources = 999; dues = 999; rb_strength = 2500; kpd_relation = 29; z_relation = 54; dvp_relation = 49; budget = 999;
 go-to: 1928_main
 
 @1928_hard
