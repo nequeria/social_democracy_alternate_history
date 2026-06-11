@@ -2,7 +2,7 @@ title: Cabinet
 is-pinned-card: true
 tags: advisor
 card-image: img/muller_cabinet.jpg
-view-if: difficulty < 0 and spd_in_government and chancellor_party = "SPD"
+view-if: spd_in_government and ( month > 5 or year > 1928 )
 on-arrival: last_cabinet_action = 1
 new-page: true 
 
@@ -10,7 +10,7 @@ new-page: true
 
 With an SPD chancellor and SPD cabinet members, we can direct the affairs of the national government.
 
-- #cabinet
+- #govt_affairs
 - @back: Return to main
 
 @back
